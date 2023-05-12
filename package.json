@@ -1,0 +1,20 @@
+{
+  "name": "devlinks",
+  "version": "1.0.0",
+  "description": "Repositorio destinado ao evento gratuito DevLinks da Rocketseat: um agregador de links para usar como um cartao de visitas online",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "stylelint": "npx stylelint **/*.css",
+    "stylelint:fix": "stylelint **/*.css --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.8.8",
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}
