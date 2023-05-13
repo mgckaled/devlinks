@@ -25,7 +25,7 @@ O produto em HTML, CSS e JS (template) foi desenvolvido com o auxílio das aulas
 
 ## 🖥️ Deploy
 
-Indisponível
+Aprecie o resultado do desafio [AQUI](https://mgckaled.github.io/devlinks/template/).
 
 ## 🚀 Tecnologias
 
@@ -34,6 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML, CSS e JS
 - Git e Github
 - Figma
+- [Ionicons](https://ionic.io/ionicons)
 
 ## 🔖 Layout
 
