@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*{ts,tsx}", "./App.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        regular: "Inter_400Regular",
+        medium: "Inter_500Medium",
+      },
+    },
   },
   plugins: [],
 }
