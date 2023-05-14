@@ -25,16 +25,33 @@ O produto em HTML, CSS e JS (template) foi desenvolvido com o auxílio das aulas
 
 ## 🖥️ Deploy
 
-Aprecie o resultado do desafio [AQUI](https://mgckaled.github.io/devlinks/template/).
+Aprecie o resultado do desafio em HTML, CSS e JS [AQUI](https://mgckaled.github.io/devlinks/template/).
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML, CSS e JS
-- Git e Github
-- Figma
-- [Ionicons](https://ionic.io/ionicons)
+<table>
+  <tbody>
+    <tr>
+      <td style="font-weight: bold">Front-end (template)</td>
+      <td>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank" rel="noopener noreferrer">HTML</a>,
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer">CSS</a>,
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">Javascript</a>,
+        <a href="https://ionic.io/ionicons/" target="_blank" rel="noopener noreferrer">IonIcons</a>,
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold">Mobile</td>
+      <td>
+        <a href="https://reactnative.dev/" target="_blank" rel="noopener noreferrer">React Native</a>,
+        <a href="https://expo.dev/" target="_blank" rel="noopener noreferrer">Expo</a>,
+        <a href="https://www.nativewind.dev/" target="_blank" rel="noopener noreferrer">NativeWind</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🔖 Layout
 
