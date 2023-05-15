@@ -10,7 +10,7 @@ export function SocialIcons({ ...rest }) {
     >
       <View className="flex-row justify-between items-center gap-x-7 mt-10">
         <Pressable
-          className="w-16 h-16 bg-transparent items-center justify-center rounded-full active:bg-highlight-color"
+          className="w-16 h-16 items-center justify-center rounded-full bg-surface-color active:bg-highlight-color"
           onPress={() => {
             void Linking.openURL("https://reactnative.dev/")
           }}
@@ -22,7 +22,7 @@ export function SocialIcons({ ...rest }) {
           />
         </Pressable>
         <Pressable
-          className="w-16 h-16 bg-transparent items-center justify-center rounded-full active:bg-highlight-color"
+          className="w-16 h-16  items-center justify-center rounded-full bg-surface-color active:bg-highlight-color"
           onPress={() => {
             void Linking.openURL("https://github.com/")
           }}
@@ -34,7 +34,7 @@ export function SocialIcons({ ...rest }) {
           />
         </Pressable>
         <Pressable
-          className="w-16 h-16 bg-transparent items-center justify-center rounded-full active:bg-highlight-color"
+          className="w-16 h-16 items-center justify-center rounded-full bg-surface-color active:bg-highlight-color"
           onPress={() => {
             void Linking.openURL("https://twitter.com/rocketseat")
           }}
@@ -46,7 +46,7 @@ export function SocialIcons({ ...rest }) {
           />
         </Pressable>
         <Pressable
-          className="w-16 h-16 bg-transparent items-center justify-center rounded-full active:bg-highlight-color"
+          className="w-16 h-16 items-center justify-center rounded-full bg-surface-color active:bg-highlight-color"
           onPress={() => {
             void Linking.openURL("https://www.youtube.com/@rocketseat")
           }}
