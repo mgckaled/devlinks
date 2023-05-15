@@ -1,14 +1,18 @@
 import { StyledComponent } from "nativewind"
-import { Text, TouchableOpacity } from "react-native"
+import { Text, TouchableOpacity, type TouchableOpacityProps } from "react-native"
 
-export function Button({ ...rest }) {
+interface ButtonProps extends TouchableOpacityProps {
+  text: string
+}
+
+export function Button({ text, ...rest }: ButtonProps) {
   return (
     <StyledComponent
       component={TouchableOpacity}
       {...rest}
     >
-      <TouchableOpacity className="h14 bg-green-600 rounded-md items-center justify-center p-4">
-        <Text className="text-white font-medium">Entrar</Text>
+      <TouchableOpacity className="items-center justify-center h-14 mt-8 p-4 bg-surface-color rounded-lg border-solid border-2 border-stroke-color active:border-surface-color-hover">
+        <Text className="text-white font-medium">{text}</Text>
       </TouchableOpacity>
     </StyledComponent>
   )
